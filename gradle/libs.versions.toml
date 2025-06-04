@@ -1,0 +1,37 @@
+[versions]
+glide = "4.16.0"
+koinAndroidxCompose = "3.5.3"
+moshi = "1.15.0"
+retrofit = "2.9.0"
+okhttp = "4.12.0"
+lifecycle = "2.6.2"
+fragment = "1.6.2"
+activity = "1.8.2"
+constraintlayout = "2.1.4"
+corektx = "1.12.0"
+appcompat = "1.6.1"
+material = "1.11.0"
+junit = "4.13.2"
+espresso = "3.5.1"
+androidxjunit = "1.1.5"
+
+[libraries]
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "corektx" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+androidx-activity = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment" }
+androidx-lifecycle-viewmodel-ktx-v290 = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit" }
+okhttp-logging = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
+moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
+
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinAndroidxCompose" }
+koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koinAndroidxCompose" }
+[plugins]
+android-application = { id = "com.android.application", version = "8.4.0" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.9.24" }
